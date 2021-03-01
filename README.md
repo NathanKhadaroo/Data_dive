@@ -9,31 +9,31 @@ Open Data Manchester have been scraping data on Greater Manchester's SCOOT (Spli
 
  - You can download the database as a .bacpac file [here](https://odmblob.blob.core.windows.net/dbdumps/odm-2021-2-18-19-0.bacpac).
 
- - loop_info.csv contains information on the location and ID of each loop.
+ - `loop_info.csv` contains information on the location and ID of each loop.
 
  - `Creating Shapefiles.R` contains code for creating shapefiles from the loop info.
  
- - scoot_linestring contains shapefiles for all the SCOOT loops in Greater Manchester, represented as linestrings. 
+ - `scoot_linestring` contains shapefiles for all the SCOOT loops in Greater Manchester, represented as linestrings. 
 
 **Data collected:**
 
-Scoot name
-Description 
-Time
-Congestion percentage
-Current flow
-Average speed
-Link travel time
-Start latitude
-Start longitude
-End latitude
+Scoot name,
+Description,
+Time,
+Congestion percentage,
+Current flow,
+Average speed,
+Link travel time,
+Start latitude,
+Start longitude,
+End latitude,
 End longitude
 
 ## Air quality data:
 
-- air_quality.csv contains cleaned data on air quality, you can find the raw data [here](https://github.com/OpenDataManchester/data/tree/master/themes/Our%20Streets%20Chorlton/Air%20Quality) and more information on the units [here](https://www.earthsense.co.uk/zephyr).
+- `air_quality.csv` contains cleaned data on air quality, you can find the raw data [here](https://github.com/OpenDataManchester/data/tree/master/themes/Our%20Streets%20Chorlton/Air%20Quality) and more information on the units [here](https://www.earthsense.co.uk/zephyr).
  
-- Cleaning_AQ.Rmd contains the scripts for cleaning the raw data.
+- `Cleaning_AQ.Rmd` contains the scripts for cleaning the raw data.
 
 Open Data Manchester have installed two Earthsense Zephyr solar-powered air quality sensors to measure air quality at selected locations in Chorlton and Chorlton Park during 2021 as part of the Our Streets Chorlton project.
 
@@ -47,15 +47,16 @@ The sensors only measure air-quality data and do not collect personally identifi
 
 **Data collected:**
 
-Temperature (C)
-Humidity (%RH)
-NO2 (ug/m3)
-O3 (ug/m3)
-NO (ug/m3)
-PM1 (ug/m3)
-PM2.5 (ug/m3)
-PM10 (ug/m3)
-Ambient temp (C)
-Ambient humidity (%RH)
+Temperature (C),
+Humidity (%RH),
+NO2 (ug/m3),
+O3 (ug/m3),
+NO (ug/m3),
+PM1 (ug/m3),
+PM2.5 (ug/m3),
+PM10 (ug/m3),
+Ambient temp (C),
+Ambient humidity (%RH),
 Ambient pressure (hPa)
+
 NO2 = Nitrogen Dioxide | O3 = Ozone | NO = Nitric Oxide | PM = Particulate Matter
