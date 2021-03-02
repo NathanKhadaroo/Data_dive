@@ -14,6 +14,8 @@ Open Data Manchester have been scraping data on Greater Manchester's SCOOT (Spli
  - `Creating Shapefiles.R` contains code for creating shapefiles from the loop info.
  
  - `scoot_linestring` contains shapefiles for all the SCOOT loops in Greater Manchester, represented as linestrings. 
+ 
+ - `loop_map.html` is an interactive map of the SCOOT network.
 
 **Data collected:**
 
