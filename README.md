@@ -5,7 +5,7 @@
 
 ## Scoot loop data:
 
-Open Data Manchester have been scraping data on Greater Manchester's SCOOT (Split Cycle Offset Optimisation Technique) loop system from the [TfGM developer portal](https://developer.tfgm.com) 
+Open Data Manchester have been scraping data on Greater Manchester's SCOOT (Split Cycle Offset Optimisation Technique) loop system from the [TfGM developer portal](https://developer.tfgm.com). 
 
  - You can download the database as a .bacpac file [here](https://odmblob.blob.core.windows.net/dbdumps/odm-2021-2-18-19-0.bacpac).
 
