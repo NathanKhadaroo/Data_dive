@@ -24,7 +24,7 @@ df <- do.call("rbind", lapply(myfiles, function(x) {
 
 # Extract scn and read date as POSIXct: -----------------------------------
 
-scoot_data <- myDB %>%
+scoot_data <- df %>%
   janitor::clean_names() %>%
   mutate(date = lubridate::dmy_hms(date),
          scn = str_split(file_name, pattern = " "),
